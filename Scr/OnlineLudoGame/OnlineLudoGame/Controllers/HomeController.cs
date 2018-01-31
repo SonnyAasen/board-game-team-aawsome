@@ -110,11 +110,6 @@ namespace OnlineLudoGame.Controllers
             }
             catch { }
             return RedirectToAction("Game");
-        }
-
-        public ActionResult TableOfContent()
-        {
-            return View();
-        }
+        }        
     }
 }
