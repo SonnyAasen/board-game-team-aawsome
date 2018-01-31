@@ -2,23 +2,4 @@
 
 # User stories
 
-Use this template when writing the user stories:
-
-
-* As a player, I want to make the first move, because I started the game.
-* As a player, I need input, when it's my turn to make a move.
-* As a player, I want to choose, if I want to join or start a game.
-* As a player, I don't want it to be possible to make two moves in a row, because that's cheeting.
-
-
-
-
-
-
-"As a < type of user >, I want < some goal > so that < some reason >."
-
-Create a new Markdown file for each userstory and create a toc.yml in the userstories folder, and add each userstory to the TOC (table of content).
-
-Read more on userstories at [https://www.mountaingoatsoftware.com/agile/user-stories
-](https://www.mountaingoatsoftware.com/agile/user-stories
-)
+### Read our user stories in the three folders on the left.
