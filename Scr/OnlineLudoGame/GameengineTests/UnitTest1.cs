@@ -51,7 +51,7 @@ namespace GameengineTests
             int gameID = ActiveGame.Game[0].GameID;
             //Assert
             Assert.AreEqual(2, gameID);
-        }        
+        }
 
         [TestMethod]
         public void GetSessionTest()
@@ -64,14 +64,14 @@ namespace GameengineTests
                 Side = "O",
                 Email = "test@test.se"
             };
-            Lobby.CreateGame(2, TestUser);            
+            Lobby.CreateGame(2, TestUser);
             Lobby.FindGame(TestUser);
             //Act
             GameSession gameSession1 = ActiveGame.Game[0];
             GameSession gameSession2 = ActiveGame.GetSession("test");
             //Assert
             Assert.AreSame(gameSession1, gameSession2);
-        }
+        }        
     }
 }
 
